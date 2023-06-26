@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="YOUTUBEE.ico" type="image/x-icon">
+    <title>Responsive</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            font-size: 30px;
+            text-align: center;
+            column-gap: 10px;
+        }
+
+        .item1 {
+            background-size: cover;
+            background-image: url(OIP\ \(2\).jpeg);
+            flex: 50%;
+            background-color: lime;
+            padding: 30px;
+        }
+
+        .item2 {
+            background-size: cover;
+            background-image: url(OIP\ \(1\).jpeg);
+            flex: 50%;
+            background-color: aqua;
+            padding: 30px;
+        }
+        .item3 {
+            background-size: cover;
+            background-image: url(OIP.jpeg);
+            flex: 50%;
+            background-color: lime;
+            padding: 30px;
+        }
+
+        .item4 {
+            background-size: cover;
+            background-image: url(NAPIMMMM.jpeg);
+            flex: 50%;
+            background-color: aqua;
+            padding: 30px;
+        }
+        .item5 {
+            background-size: cover;
+            background-image: url(saban.jpg);
+            flex: 50%;
+            background-color: lime;
+            padding: 30px;
+            transition: 0.4s;
+        }
+        .item5:hover {
+            background-image: url(saban.jpg);
+            
+        }
+        @media(max-width: 500px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .item1 {
+                background-image: url(OIP\ \(2\).jpeg);
+            }
+
+            .item2 {
+                background-image: url(OIP\ \(1\).jpeg);
+            }
+            .item3 {
+                background-image: url(OIP.jpeg);
+            }
+
+            .item4 {
+                background-image: url(NAPIMMMM.jpeg);
+            }
+            .item5 {
+                background-image: url(saban.jpg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+html, body{
+    max-height: 100%;
+
+}
+h2{
+    border-bottom: 3px solid blue;
+    padding-bottom: 10px;
+ }
+.a{
+    background-repeat: no-repeat;
+    float: left;
+    height: 300px;
+    width: 22.5%;
+    margin: 1.25%;
+    background-image: url(../img/sasa.jpg);
+    background-position: center;
+    border-bottom: 50px;
+  }
+.aa{
+    background-repeat: no-repeat;
+    float: left;
+    height: 300px;
+    width: 22.5%;
+    margin: 1.25%;
+    background-image: url(../img/novo.jpg )
+}
+.aaa{
+    background-repeat: no-repeat;
+    float: left;
+    height: 300px;
+    width: 22.5%;
+    margin: 1.25%;
+    background-image: url(../img/ovv.jpg);
+    background-position: center; 
+}
+.aaaa{
+    background-repeat: no-repeat;
+    float: left;
+    height: 300px;
+    width: 22.5%;
+    margin: 1.25%;
+    background-image: url(../img/novruz.jpg);
+    background-position: center; 
+}
+.b{
+    background-repeat: no-repeat;
+    float: left;
+    height: 300px;
+    width: 22.5%;
+    background-image: url(../img/indir.jpg);
+    background-position: center; 
+}
+.bb{
+    background-repeat: no-repeat;
+    float: left;
+    height: 100px;
+    width: 22.5%;
+    margin: 1.25%;
+    background-image: url(../img/novruz1.jpg);
+    background-position: center; 
+}
+.bbb{
+    background-repeat: no-repeat;
+    float: left;
+    height: 300px;
+    width: 22.5%;
+    margin: 1.25%;
+    background-image: url(../img/novvruzz.jpg);
+    background-position: center; 
+}
+.bbbb{
+    background-repeat: no-repeat;
+    float: left;
+    height: 300px;
+    width: 22.5%;
+    margin: 1.25%;
+    background-image: url(../img/aaaaaaaaaa.jpg);
+    background-position: center; 
+}
+#ww{
+    letter-spacing: 1.31px;
+}
+.opo{
+   border-left:5px solid green;
+}
+.totis{
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-image: url(../img/aspaci.png);
+}
+.qqaa{
+   line-height: 50px;
+   background-color: aqua;
+   text-align: center;
+}
+div{
+    filter: brightness(70%);
+    filter: blur(4px);
+    filter: hue-rotate(140%)
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerv ler ucun eleyirem</title>
+    <style>
+        .box{
+            position: relative;
+            height: 250px;
+            width: 250px;
+            background-image: url(Hopetoun_falls.jpg);
+            background-size: cover;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .box::before{
+            content: 'NATURAL';
+            text-align: center;
+            color: white;
+            line-height: 250px;
+            background-color: black;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 10px;
+            transition: 0.4s;
+            scale: 0;
+        }
+        .box:hover::before{
+            scale: 1;
+            opacity: 60%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    
+</body>
+</html>

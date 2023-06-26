@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before</title>
+    <style>
+        .murik{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 30px;
+            position: relative;
+            margin-top: 10px;
+        }
+        .murik::before{
+            content: '';
+            display: block;
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background-color: lime;
+            transform: translate(0px 0px);
+            transform: scale(0);
+            transition: 1s;
+        }
+        .murik::after{
+            content: '';
+            display: block;
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background-color: lime;
+            transform: translate(0px 0px);
+            transform: scale(0);
+            transition: 1s;
+        }
+        .murik:hover::before{
+            transform: translate(0px 30px);
+            transform: scale(1);
+        }
+        .murik:hover::after{
+            transform: translate(0px 30px);
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+    <div class="murik">
+        <h2>Aisha</h2>
+    </div>
+    
+</body>
+</html>
